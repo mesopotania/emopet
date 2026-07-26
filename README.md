@@ -1,15 +1,12 @@
 # emopet
 
-
+website demo
 
 ## Webpages
 
 - French: https://mesopotania.github.io/emopet/
 - English: https://mesopotania.github.io/emopet/en/
 
-
-That rewrites `index.html` and `en/index.html` from your text, so the two
-languages never drift apart.
 
 ## The waitlist
 
