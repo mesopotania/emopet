@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>emopet · le bien-être de votre chien, observé avec vous</title>
+<meta name="description" content="emopet est un compagnon de bien-être pour chiens, imaginé en Bretagne. Un textile porté et une station de repos observent le quotidien de votre chien et vous aident à mieux le comprendre. Rejoignez la liste d'attente.">
+<link rel="icon" href="assets/brand/paw.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Schibsted+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>try{if(localStorage.getItem("emopet-theme")==="dark")document.documentElement.classList.add("dark")}catch(e){}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<header class="header">
+  <div class="container header__inner">
+    <a href="#top" aria-label="emopet">
+      <img class="brand-logo brand-logo--light" src="assets/brand/logo-horizontal.svg" alt="emopet">
+      <img class="brand-logo brand-logo--dark" src="assets/brand/logo-horizontal-reversed.svg" alt="emopet">
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#companion">Le compagnon</a>
+      <a href="#community">La meute</a>
+      <a href="#pricing">Tarifs</a>
+      <a href="#faq">Questions</a>
+    </nav>
+    <div class="header__actions">
+      <a class="locale" href="en/" aria-label="Switch to English">
+        <span class="">FR</span><span class="sep">·</span><span class="dim">EN</span>
+      </a>
+      <button type="button" class="theme" role="switch" aria-label="Passer en thème sombre" data-to-dark="Passer en thème sombre" data-to-light="Passer en thème clair">
+        <span class="theme__knob">
+          <svg class="icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.4" fill="currentColor"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2.6 12h2.2M19.2 12h2.2M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6"/></g></svg>
+          <svg class="icon-moon" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" fill="currentColor"/></svg>
+        </span>
+      </button>
+      <a href="#join" class="btn btn--coral btn--sm" style="display:none" data-cta>Rejoindre la liste</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- Hero -->
+  <section id="top">
+    <div class="container hero hero__grid">
+      <div>
+        <h1 class="rise">Chaque mouvement, chaque pause, à vos côtés.</h1>
+        <p class="hero__lead lead rise rise-2">emopet est un compagnon de bien-être pour chiens. Un textile porté, une station de repos et une médaille, réunis en une lecture claire de la journée.</p>
+        <div class="hero__form rise rise-3"><form class="waitlist" novalidate>
+      <label class="sr-only" for="email-hero">Adresse e-mail</label>
+      <div class="waitlist__row">
+        <input id="email-hero" class="waitlist__input" type="email" inputmode="email" autocomplete="email" placeholder="votre@email.fr" required>
+        <button type="submit" class="btn btn--coral">Rejoindre la liste</button>
+      </div>
+      <p class="waitlist__note"
+         data-note="À votre rythme, sans engagement. Votre e-mail sert seulement à vous tenir informé."
+         data-submitting="Un instant…"
+         data-success="C'est noté. Nous reviendrons vers vous en douceur."
+         data-error-email="Cette adresse ne semble pas valide. Vérifiez-la, s'il vous plaît."
+         data-error-generic="L'envoi n'a pas abouti. Réessayez dans un instant.">À votre rythme, sans engagement. Votre e-mail sert seulement à vous tenir informé.</p>
+    </form></div>
+      </div>
+      <div class="rise rise-2"><div class="frame"><img src="assets/images/hero-tag.png" alt="Un golden retriever portant le TAG emopet à son collier, sur la côte bretonne."></div></div>
+    </div>
+  </section>
+
+  <!-- Understand -->
+  <section id="understand" class="section">
+    <div class="container split split--wide-left">
+      <div class="reveal">
+        <h2 class="h2 text-indigo">Une lecture claire de sa journée.</h2>
+        <p class="body-text prose">Votre chien passe une grande partie de sa journée à se reposer. emopet lit ces heures, les temps actifs et les temps calmes, et vous montre comment une journée se compare au rythme propre de votre chien.</p>
+        <p class="examples-label">Exemples dans l'application</p>
+        <ul class="examples">
+          <li><p>Le repos a été plus régulier cette semaine.</p></li>
+          <li><p>Une matinée plus calme que d'habitude.</p></li>
+          <li><p>La routine du soir est revenue.</p></li>
+        </ul>
+      </div>
+      <figure class="card card--hover reveal" data-chart>
+        <figcaption class="card__head"><span class="card__title"><span class="dot"></span>Cette semaine</span><span class="muted">Confiance · Partielle</span></figcaption>
+        <div class="chart-live"><b data-chart-live>Dim · Bien-être 82</b><span class="muted" data-chart-rest>Repos 76</span></div>
+        <div class="chart" data-understand-wqi="Bien-être" data-understand-rest="Repos"><button type="button" class="chart__bar" style="height:58%"
+      data-i="0" data-day="Lun" data-wqi="58" data-act="41"
+      aria-label="Lun: WQI 58">
+      <span class="fill"></span>
+      <span class="chart__tip"><b>Lun</b><span>Bien-être 58 · Activité 41</span></span>
+    </button><button type="button" class="chart__bar" style="height:64%"
+      data-i="1" data-day="Mar" data-wqi="64" data-act="45"
+      aria-label="Mar: WQI 64">
+      <span class="fill"></span>
+      <span class="chart__tip"><b>Mar</b><span>Bien-être 64 · Activité 45</span></span>
+    </button><button type="button" class="chart__bar" style="height:61%"
+      data-i="2" data-day="Mer" data-wqi="61" data-act="43"
+      aria-label="Mer: WQI 61">
+      <span class="fill"></span>
+      <span class="chart__tip"><b>Mer</b><span>Bien-être 61 · Activité 43</span></span>
+    </button><button type="button" class="chart__bar" style="height:72%"
+      data-i="3" data-day="Jeu" data-wqi="72" data-act="50"
+      aria-label="Jeu: WQI 72">
+      <span class="fill"></span>
+      <span class="chart__tip"><b>Jeu</b><span>Bien-être 72 · Activité 50</span></span>
+    </button><button type="button" class="chart__bar" style="height:68%"
+      data-i="4" data-day="Ven" data-wqi="68" data-act="48"
+      aria-label="Ven: WQI 68">
+      <span class="fill"></span>
+      <span class="chart__tip"><b>Ven</b><span>Bien-être 68 · Activité 48</span></span>
+    </button><button type="button" class="chart__bar" style="height:74%"
+      data-i="5" data-day="Sam" data-wqi="74" data-act="52"
+      aria-label="Sam: WQI 74">
+      <span class="fill"></span>
+      <span class="chart__tip"><b>Sam</b><span>Bien-être 74 · Activité 52</span></span>
+    </button><button type="button" class="chart__bar is-today" style="height:82%"
+      data-i="6" data-day="Dim" data-wqi="82" data-act="57"
+      aria-label="Dim: WQI 82">
+      <span class="fill"></span>
+      <span class="chart__tip"><b>Dim</b><span>Bien-être 82 · Activité 57</span></span>
+    </button></div>
+        <div class="chart__days"><span>Lun</span><span>Mar</span><span>Mer</span><span>Jeu</span><span>Ven</span><span>Sam</span><span>Dim</span></div>
+        <p class="chart-hint muted">Survolez un jour pour voir le détail.</p>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Companion -->
+  <section id="companion" class="section tint">
+    <div class="container">
+      <div style="max-width:42rem">
+        <h2 class="h2 text-indigo reveal">Un textile, une station de repos, une médaille.</h2>
+        <p class="lead reveal" style="margin-top:1.25rem;color:color-mix(in srgb,var(--ink) 80%,transparent)">Pensés et façonnés en Bretagne, discrets à la maison, agréables à porter.</p>
+      </div>
+      <div class="showcase reveal" data-showcase>
+        <div class="showcase__tabs" role="tablist"><button type="button" role="tab" class="showcase__tab" data-tab="0" aria-selected="true">Le MAT</button><button type="button" role="tab" class="showcase__tab" data-tab="1" aria-selected="false">Le TAG</button><button type="button" role="tab" class="showcase__tab" data-tab="2" aria-selected="false">La médaille</button></div>
+        <div class="showcase__viewport">
+          <div class="showcase__track" tabindex="0" data-track><div class="showcase__slide"><div class="product">
+      <div class="product__img"><img src="assets/images/mat-clean.png" alt="Le tapis emopet, avec un chien qui s'y repose au soleil." loading="lazy"></div>
+      <div><span class="product__kind">La référence</span><h3>Le MAT</h3><p>Une station de repos confortable sur laquelle votre chien s'installe de lui-même. Elle lit la qualité de son repos, sans qu'il ait rien à porter.</p></div>
+    </div></div><div class="showcase__slide"><div class="product">
+      <div class="product__img"><img src="assets/images/tag.jpg" alt="Le TAG emopet, un textile porté par un golden retriever." loading="lazy"></div>
+      <div><span class="product__kind">En mouvement</span><h3>Le TAG</h3><p>Un textile léger et confortable, porté au quotidien. Il observe l'activité et les temps de repos, dehors comme dedans.</p></div>
+    </div></div><div class="showcase__slide"><div class="product">
+      <div class="product__img"><img src="assets/images/medallion.jpg" alt="La médaille" loading="lazy"></div>
+      <div><span class="product__kind">L'essentiel</span><h3>La médaille</h3><p>Elle se glisse sur le collier que votre chien porte déjà. La forme la plus légère pour commencer.</p></div>
+    </div></div></div>
+          <button class="showcase__arrow showcase__arrow--prev" data-prev aria-label="Previous"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <button class="showcase__arrow showcase__arrow--next" data-next aria-label="Next"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <div class="showcase__dots"><button type="button" class="showcase__dot" data-dot="0" aria-current="true" aria-label="Le MAT"></button><button type="button" class="showcase__dot" data-dot="1" aria-current="false" aria-label="Le TAG"></button><button type="button" class="showcase__dot" data-dot="2" aria-current="false" aria-label="La médaille"></button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App -->
+  <section id="app" class="section">
+    <div class="container split">
+      <div class="reveal" data-indicator>
+        <figure class="indicator card card--hover">
+          <figcaption class="indicator__head"><span class="t">Aujourd'hui</span><span class="chip">Confiance · Partielle</span></figcaption>
+          <div class="gauge">
+            <div class="gauge__ring"><svg viewBox="0 0 110 110"><circle class="gauge__track" cx="55" cy="55" r="46" fill="none" stroke-width="9"/><circle class="gauge__arc" cx="55" cy="55" r="46" fill="none" stroke-width="9" stroke-linecap="round" data-arc/></svg><span class="gauge__num" data-gauge-num>52</span></div>
+            <div><p class="gauge__label">Charge du jour</p><p class="gauge__desc">Comparé à lui-même, au fil de la semaine.</p></div>
+          </div>
+          <div class="indicator__foot">
+            <div class="row"><span class="k">Repos</span><span class="v"><span style="width:8px;height:8px;border-radius:50%;background:var(--teal);display:inline-block"></span>Régulier</span></div>
+            <div>
+              <div class="row"><span class="k">Activité</span><span class="v" data-ind-pct style="color:color-mix(in srgb,var(--indigo) 75%,transparent)">52%</span></div>
+              <div class="seg" data-ind-bars><button type="button" class="ind-bar on" data-i="0" data-level="12" aria-label="Activité 12%"></button><button type="button" class="ind-bar on" data-i="1" data-level="24" aria-label="Activité 24%"></button><button type="button" class="ind-bar on" data-i="2" data-level="38" aria-label="Activité 38%"></button><button type="button" class="ind-bar cur" data-i="3" data-level="52" aria-label="Activité 52%"></button><button type="button" class="ind-bar" data-i="4" data-level="66" aria-label="Activité 66%"></button><button type="button" class="ind-bar" data-i="5" data-level="80" aria-label="Activité 80%"></button><button type="button" class="ind-bar" data-i="6" data-level="94" aria-label="Activité 94%"></button></div>
+              <div class="seg-legend"><span>Calme</span><span>Actif</span></div>
+            </div>
+          </div>
+          <p class="indicator__note">Aperçu de l'application. Les repères s'affinent au fil des jours.</p>
+        </figure>
+      </div>
+      <div class="reveal">
+        <h2 class="h2 text-indigo">Une lecture claire, chaque jour.</h2>
+        <p class="lead" style="margin-top:1.25rem;color:color-mix(in srgb,var(--ink) 80%,transparent)">L'application réunit ce que les objets observent en quelques repères simples, avec, toujours, le niveau de confiance de chaque lecture.</p>
+        <dl class="modules"><div class="module"><dt><span class="d"></span>Bien-être du jour</dt><dd>Deux repères simples, comparés aux habitudes de votre chien.</dd></div><div class="module"><dt><span class="d"></span>Vos données</dt><dd>Privé, anonymisé ou partagé avec la meute. Vous choisissez, module par module.</dd></div><div class="module"><dt><span class="d"></span>Le journal</dt><dd>Balades, moments et étapes, gardés tels qu'ils arrivent.</dd></div><div class="module"><dt><span class="d"></span>La carte de la meute</dt><dd>Plages, parcs, sentiers et bonnes adresses, enrichis par la communauté.</dd></div></dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- Moments -->
+  <section id="moments" class="section">
+    <div class="container">
+      <div class="center reveal">
+        <p class="moments__eyebrow"><span aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22"><rect width="22" height="22" rx="6" fill="currentColor" opacity="0.9"/><g fill="var(--sand)"><circle cx="8" cy="8" r="1.3"/><circle cx="8" cy="14" r="1.3"/><circle cx="14" cy="8" r="1.3"/><circle cx="14" cy="14" r="1.3"/></g></svg></span>Au quotidien</p>
+        <h2 class="moments__title"><span class="text-indigo">Ce que fait emopet,</span> <span class="accent">à vos côtés.</span></h2>
+        <p class="moments__sub">Il apprend le rythme de votre chien en quelques jours, puis vous signale ce qui change, jamais ce qui ne va pas.</p>
+      </div>
+      <div class="moments__grid"><article class="moment lift"><div class="moment__img">
+      <img src="assets/images/hero-tag.png" alt="Un chien portant le TAG emopet à son collier lors d'une balade côtière." loading="lazy">
+      <span class="moment__tag">La promenade du matin</span></div>
+      <div class="moment__body"><h3>Chaque balade, comptée pour vous.</h3><p>Le TAG lit l'activité au fil de la balade. Aucune application à ouvrir, aucun bouton à presser. Elle rejoint la lecture du jour d'elle-même.</p><div class="moment__meta">Enregistré tout seul</div></div>
+    </article><article class="moment lift"><div class="moment__img">
+      <img src="assets/images/vet-visit.jpg" alt="Un chien recevant calmement un soin oral à la seringue, à la maison." loading="lazy">
+      <span class="moment__tag">La visite chez le vétérinaire</span></div>
+      <div class="moment__body"><h3>Un historique à montrer.</h3><p>Des semaines de repos et d'activité, mises en regard de la référence de votre chien. Vous arrivez avec des faits, pas une intuition. emopet rapporte ce qu'il trouve, le vétérinaire décide.</p><div class="moment__meta">La référence de votre chien</div></div>
+    </article><article class="moment lift"><div class="moment__img">
+      <img src="assets/images/hero-dog.png" alt="Un golden retriever au repos sur le tapis emopet, à l'intérieur." loading="lazy">
+      <span class="moment__tag">Le coucher, le soir</span></div>
+      <div class="moment__body"><h3>Le repos, lu sur le tapis.</h3><p>Votre chien s'installe sur le MAT sans rien porter. Il évalue la qualité de la nuit pendant qu'il dort.</p><div class="moment__meta">Station de sommeil</div></div>
+    </article></div>
+      <div class="moments__foot reveal">
+        <p>De la promenade du matin au dernier repos de la nuit.</p>
+        <a href="#companion" class="btn btn--indigo">Voir le TAG et le MAT</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Honest -->
+  <section class="section on-indigo">
+    <div class="container honest__grid">
+      <div class="reveal"><h2 class="h2">Une lecture juste, à sa juste place.</h2><p class="honest__intro">emopet s'appuie sur la recherche en bien-être animal. Il décrit des états qui s'observent, à partir de signaux réels, et vous laisse leur donner du sens.</p></div>
+      <ul class="honest__list reveal"><li><h3>Votre chien, à sa propre mesure</h3><p>La référence, c'est votre chien au fil du temps, avec ses habitudes à lui.</p></li><li><h3>Un comportement décrit</h3><p>emopet montre ce que fait votre chien. Ce qu'il ressent, c'est à vous de le lire.</p></li><li><h3>Réservé dans le doute</h3><p>Quand un signal manque de fiabilité, emopet préfère se taire plutôt que deviner.</p></li></ul>
+    </div>
+  </section>
+
+  <!-- Philosophy -->
+  <section id="philosophy" class="section">
+    <div class="container center">
+      <p class="eyebrow text-coral reveal">PHILOSOPHIE PRODUIT</p>
+      <h2 class="h2 reveal" style="margin-top:1.5rem"><span class="text-indigo">Ce que défend </span><span class="text-coral">emopet.</span></h2>
+      <p class="lead reveal" style="margin-top:1.5rem;max-width:42rem">emopet se tient à vos côtés. Un compagnon attentif qui observe, respecte le contexte et fait confiance au lien qui vous unit à votre chien, avant tout algorithme.</p>
+      <span class="ping-wrap"><span class="p1 ping"></span><span class="p2"></span></span>
+      <p class="eyebrow muted" style="margin-top:2.5rem">Notre boussole</p>
+      <ul class="compass"><li><span class="text-coral"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="32" height="32" aria-hidden="true"><path d="M12 20s-6.5-4-6.5-9A3.5 3.5 0 0 1 12 8.2 3.5 3.5 0 0 1 18.5 11c0 5-6.5 9-6.5 9Z"/></svg></span><span class="compass__label">Connexion</span></li><li><span class="text-indigo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="32" height="32" aria-hidden="true"><path d="M12 12 L12.4 12.4 L12 13 L10.9 13.1 L10 12 L10.2 10.2 L12 9 L14.5 9.5 L16 12 L15.2 15.2 L12 17 L8.1 15.9 L6 12 L7.4 7.4 L12 5"/></svg></span><span class="compass__label">Héritage breton</span></li><li><span class="text-teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="32" height="32" aria-hidden="true"><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/><path d="M8.6 15.4a4.5 4.5 0 0 1 0-6.8"/><path d="M15.4 8.6a4.5 4.5 0 0 1 0 6.8"/></svg></span><span class="compass__label">Intelligence</span></li><li><span class="text-coral"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="32" height="32" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="9.2" cy="10.2" r="1" fill="currentColor" stroke="none"/><circle cx="14.8" cy="10.2" r="1" fill="currentColor" stroke="none"/><path d="M8.5 14c1 1.4 2.2 2 3.5 2s2.5-.6 3.5-2"/></svg></span><span class="compass__label">Amour et bien-être</span></li></ul>
+      <div class="philosophy__closing"><p class="big">Il observe. Il met en contexte. Il partage.</p><p class="body-text" style="margin-top:0.75rem">L'histoire que vous en tirez vous appartient.</p></div>
+    </div>
+  </section>
+
+  <!-- Community -->
+  <section id="community" class="section">
+    <div class="container split">
+      <div class="reveal" style="order:2">
+        <h2 class="h2 text-indigo" style="font-size:clamp(1.9rem,4vw,3rem)">La meute : de vrais chiens, dans la vraie vie.</h2>
+        <p class="lead" style="margin-top:1.5rem;color:color-mix(in srgb,var(--ink) 80%,transparent)">En Bretagne, un chien est souvent la première raison pour laquelle des voisins se parlent. emopet en fait une communauté locale autour du bien-être des chiens, portée par Breiz, un compagnon breton qui connaît la côte et ses chiens.</p>
+        <p style="margin-top:1.5rem;font-family:var(--font-display);font-size:1.25rem;line-height:1.4" class="text-indigo">Les premières familles la façonnent avec nous. Vous décidez de ce que vous partagez, et de ce que vous gardez pour vous.</p>
+      </div>
+      <div class="reveal" style="order:1"><div class="frame"><img src="assets/images/lifestyle.png" alt="Une personne installée avec son chien dans un intérieur chaleureux, en pleine journée." loading="lazy"></div></div>
+    </div>
+  </section>
+
+  <!-- Reading -->
+  <section id="reading" class="section on-night">
+    <div class="container split">
+      <div class="reveal" style="order:2">
+        <p class="eyebrow text-teal">LA LECTURE</p>
+        <h2 class="h2" style="margin-top:1.5rem">Voyez comment va votre chien, d'un coup d'œil.</h2>
+        <p class="reading__body">Un indicateur se déplace du calme à l'actif, lu à partir des signaux que le TAG et le MAT mesurent réellement. Il marque un état, pas une humeur ni une émotion.</p>
+        <p class="reading__body">Chaque lecture porte son niveau de confiance et se situe par rapport à la référence personnelle de votre chien, calibrée selon sa race. emopet rapporte ce qu'il trouve, pas un diagnostic.</p>
+      </div>
+      <div class="reveal" style="order:1">
+        <div class="reading-card" data-glow>
+          <div class="reading-card__glow" aria-hidden="true"></div>
+          <div class="reading-card__in">
+            <div class="reading__stats">
+              <div class="stat"><div class="top"><span class="val">72</span><span class="lab">WQI</span></div><p class="name">Indice de qualité du bien-être</p></div>
+              <div class="stat"><div class="top"><span class="val">68</span><span class="lab">RSI</span></div><p class="name">Indice de qualité du repos</p></div>
+            </div>
+            <div class="track"><div class="track__head"><span class="k">Confiance</span><span class="v">Partielle</span></div><div class="track__seg"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class=""></span><span class=""></span></div></div>
+            <div class="trend"><p class="trend__label">Cette semaine</p><div class="trend__bars"><button type="button" class="trend__bar" style="height:64%"
+      data-day="Lun" data-wqi="64" data-rsi="58" aria-label="Lun: WQI 64">
+      <span class="fill"></span>
+      <span class="trend__tip"><b>Lun</b><span>WQI 64 · RSI 58</span></span>
+    </button><button type="button" class="trend__bar" style="height:69%"
+      data-day="Mar" data-wqi="69" data-rsi="63" aria-label="Mar: WQI 69">
+      <span class="fill"></span>
+      <span class="trend__tip"><b>Mar</b><span>WQI 69 · RSI 63</span></span>
+    </button><button type="button" class="trend__bar" style="height:66%"
+      data-day="Mer" data-wqi="66" data-rsi="60" aria-label="Mer: WQI 66">
+      <span class="fill"></span>
+      <span class="trend__tip"><b>Mer</b><span>WQI 66 · RSI 60</span></span>
+    </button><button type="button" class="trend__bar" style="height:74%"
+      data-day="Jeu" data-wqi="74" data-rsi="68" aria-label="Jeu: WQI 74">
+      <span class="fill"></span>
+      <span class="trend__tip"><b>Jeu</b><span>WQI 74 · RSI 68</span></span>
+    </button><button type="button" class="trend__bar" style="height:70%"
+      data-day="Ven" data-wqi="70" data-rsi="64" aria-label="Ven: WQI 70">
+      <span class="fill"></span>
+      <span class="trend__tip"><b>Ven</b><span>WQI 70 · RSI 64</span></span>
+    </button><button type="button" class="trend__bar" style="height:78%"
+      data-day="Sam" data-wqi="78" data-rsi="72" aria-label="Sam: WQI 78">
+      <span class="fill"></span>
+      <span class="trend__tip"><b>Sam</b><span>WQI 78 · RSI 72</span></span>
+    </button><button type="button" class="trend__bar is-today" style="height:82%"
+      data-day="Dim" data-wqi="82" data-rsi="76" aria-label="Dim: WQI 82">
+      <span class="fill"></span>
+      <span class="trend__tip"><b>Dim</b><span>WQI 82 · RSI 76</span></span>
+    </button></div><div class="trend__days"><span>Lun</span><span>Dim</span></div></div>
+            <div class="track" style="margin-top:1.5rem"><div class="track__seg"><span class=""></span><span class=""></span><span class="on"></span><span class=""></span><span class=""></span></div><div class="scale-legend"><span>Calme profond</span><span>Activité intense</span></div></div>
+            <p class="reading-card__note">Aperçu de l'application.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section tint">
+    <div class="container">
+      <div style="max-width:42rem">
+        <h2 class="h2 text-indigo reveal">Rejoignez les foyers fondateurs.</h2>
+        <p class="lead reveal" style="margin-top:1.25rem;color:color-mix(in srgb,var(--ink) 80%,transparent)">Un tarif de lancement pour les premières familles en Bretagne. Les prix se confirment au lancement.</p>
+      </div>
+      <div class="pricing__grid reveal"><article class="tier lift">
+      <div class="tier__top"><h3>La médaille</h3></div>
+      <p class="tier__kind">L'essentiel</p>
+      <p class="tier__price">59 €</p>
+      <p class="tier__desc">Se glisse sur le collier que votre chien porte déjà. La façon la plus simple de commencer.</p>
+      <ul class="tier__features"><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Se glisse sur le collier existant</li><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>L'application incluse</li><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Idéal pour commencer</li></ul>
+    </article><article class="tier lift">
+      <div class="tier__top"><h3>Le TAG</h3></div>
+      <p class="tier__kind">En mouvement</p>
+      <p class="tier__price">129 €</p>
+      <p class="tier__desc">Le textile porté, pour observer l'activité et le repos, dehors comme dedans.</p>
+      <ul class="tier__features"><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Activité et temps de repos</li><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Textile lavable, port long</li><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>L'application incluse</li></ul>
+    </article><article class="tier tier--featured lift">
+      <div class="tier__top"><h3>Le MAT</h3><span class="tier__badge">Le plus complet</span></div>
+      <p class="tier__kind">La référence</p>
+      <p class="tier__price">249 €</p>
+      <p class="tier__desc">La station de repos, pour comprendre la qualité du repos à la maison.</p>
+      <ul class="tier__features"><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Qualité et durée du repos</li><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Discret, fonctionne tout seul</li><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>L'application incluse</li></ul>
+    </article></div>
+      <div class="pass reveal">
+        <div><p class="pass__eyebrow">Saison 1 · Lumières d'Armor</p><h3>Pass de Saison</h3><p class="pass__desc">Le triskèle doré, la brume marine, la double lune. Des ornements pour votre tanière. Rien qui change la lecture.</p></div>
+        <div class="pass__right"><p class="pass__price">9,99 €</p><span class="pass__at">Au lancement</span></div>
+      </div>
+      <div class="pricing__cta reveal"><a href="#join" class="btn btn--coral">Réserver mon tarif fondateur</a><p class="pricing__foot">Pour l'instant, la liste réserve votre place et votre tarif fondateur. La précommande arrive plus tard.</p></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container" style="max-width:52rem">
+      <h2 class="h2 text-indigo reveal">Questions fréquentes</h2>
+      <div class="faq__list reveal"><details class="faq__item"><summary>emopet comprend-il les émotions de mon chien ?<span class="faq__plus" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1.5v9M1.5 6h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></summary><p>emopet observe le comportement de votre chien, son activité et son repos. Ce qu'il ressent, c'est à vous de le lire.</p></details><details class="faq__item"><summary>En quoi emopet diffère-t-il d'un traceur GPS ou d'activité ?<span class="faq__plus" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1.5v9M1.5 6h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></summary><p>Un traceur vous dit où est votre chien ou combien de pas il a faits. emopet lit comment va votre chien, son activité et son repos, par rapport à sa propre référence. Ce n'est pas un traceur, et ce n'est pas un dispositif médical.</p></details><details class="faq__item"><summary>Que veut dire « emopet se tait » ?<span class="faq__plus" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1.5v9M1.5 6h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></summary><p>Quand un signal manque de fiabilité, emopet ne montre rien plutôt qu'une supposition. Vous savez toujours à quel point vous fier à chaque lecture.</p></details><details class="faq__item"><summary>Comment emopet s'adapte-t-il à mon chien ?<span class="faq__plus" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1.5v9M1.5 6h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></summary><p>Chaque chien est lu à partir de sa propre référence, construite selon sa race, son âge, son gabarit et son tempérament. Cette référence s'affine au fil des jours.</p></details><details class="faq__item"><summary>Puis-je voir sur quoi repose un score ?<span class="faq__plus" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1.5v9M1.5 6h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></summary><p>Oui. Chaque WQI et RSI renvoie aux signaux bruts qui le composent, avec son niveau de confiance. Rien n'est une boîte noire, et rien n'est un diagnostic.</p></details><details class="faq__item"><summary>Mon chien doit-il porter le TAG en permanence ?<span class="faq__plus" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1.5v9M1.5 6h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></summary><p>À la maison, le MAT suffit : votre chien s'y repose sans rien porter. Le TAG prolonge l'observation dehors, quand vous le souhaitez.</p></details><details class="faq__item"><summary>Mes données sont-elles protégées ?<span class="faq__plus" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1.5v9M1.5 6h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></summary><p>Vos données vous appartiennent. Privé, anonymisé ou partagé avec la meute, vous choisissez, module par module, vous pouvez revenir en arrière à tout moment, et elles ne sont jamais vendues.</p></details><details class="faq__item"><summary>Est-ce un dispositif médical ?<span class="faq__plus" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1.5v9M1.5 6h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></summary><p>emopet est un compagnon de bien-être. Pour toute question de santé, votre vétérinaire reste votre interlocuteur, et emopet l'accompagne.</p></details></div>
+    </div>
+  </section>
+
+  <!-- Join -->
+  <section id="join" class="section join">
+    <div class="container join__in reveal">
+      <h2 class="h2 text-indigo">Façonnez emopet dès le départ.</h2>
+      <p class="lead">Rejoignez la liste et donnez votre avis tant que les décisions sont ouvertes. L'application est en bêta fermée. Le TAG et le MAT sont en prototypage.</p>
+      <div style="margin-top:2rem;width:100%;display:flex;justify-content:center"><form class="waitlist waitlist--center" novalidate>
+      <label class="sr-only" for="email-join">Adresse e-mail</label>
+      <div class="waitlist__row">
+        <input id="email-join" class="waitlist__input" type="email" inputmode="email" autocomplete="email" placeholder="votre@email.fr" required>
+        <button type="submit" class="btn btn--coral">Rejoindre la liste</button>
+      </div>
+      <p class="waitlist__note"
+         data-note="À votre rythme, sans engagement. Votre e-mail sert seulement à vous tenir informé."
+         data-submitting="Un instant…"
+         data-success="C'est noté. Nous reviendrons vers vous en douceur."
+         data-error-email="Cette adresse ne semble pas valide. Vérifiez-la, s'il vous plaît."
+         data-error-generic="L'envoi n'a pas abouti. Réessayez dans un instant.">À votre rythme, sans engagement. Votre e-mail sert seulement à vous tenir informé.</p>
+    </form></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__in">
+    <div class="footer__top">
+      <div>
+        <img class="footer__logo" src="assets/brand/logo-horizontal-reversed.svg" alt="emopet">
+        <p class="footer__tagline">Soin intelligent, lien fort.</p>
+      </div>
+      <nav class="footer__links" aria-label="Nous écrire">
+        <a href="https://www.instagram.com/meutebreiz/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="mailto:bonjour@emopet.fr">Nous écrire</a>
+      </nav>
+    </div>
+    <p class="footer__disclaimer">emopet est un compagnon de bien-être non médical. Il accompagne votre relation avec votre vétérinaire et ne le remplace pas.</p>
+    <div class="footer__legal"><p>Mentions légales et politique de confidentialité arriveront avec le lancement.</p><p>emopet · Fait en Bretagne · <span data-year></span></p></div>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

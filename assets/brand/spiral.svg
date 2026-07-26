@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(360 720) rotate(90) scale(120)">
+      <stop offset="0%" stop-color="#FE502D"/>
+      <stop offset="35%" stop-color="#FE502D" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FE502D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Paw base -->
+  <path d="
+    M210 850
+    C180 690 250 520 430 470
+    C650 410 900 510 960 730
+    C990 850 930 980 770 1010
+    C620 1035 520 960 420 960
+    C310 960 235 930 210 850
+    Z"
+    fill="#1D1A6A"/>
+
+  <!-- Spiral lines -->
+  <path d="
+    M495 310
+    C410 330 370 420 430 500
+    C485 575 610 565 650 470
+    C690 380 610 285 515 305
+    C450 318 420 385 455 440
+    C490 495 575 495 600 435
+    C620 390 585 345 535 350
+    C500 355 485 390 500 415
+    C515 440 555 440 565 410"
+    stroke="#F6EFE7"
+    stroke-width="26"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <path d="
+    M570 525
+    C650 520 730 560 770 645
+    C815 740 775 850 685 900
+    C600 950 480 925 430 840
+    C390 775 400 700 455 645
+    C505 595 590 585 645 620
+    C700 655 720 730 685 785
+    C650 840 575 845 535 805
+    C500 770 505 710 545 680
+    C585 650 640 665 660 710
+    C675 745 655 790 620 805"
+    stroke="#F6EFE7"
+    stroke-width="26"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Bottom wave lines -->
+  <path d="M180 820 C280 980 470 1020 660 930" stroke="#F6EFE7" stroke-width="22" stroke-linecap="round"/>
+  <path d="M230 875 C330 980 510 1000 680 915" stroke="#F6EFE7" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Glow -->
+  <circle cx="360" cy="720" r="120" fill="url(#glow)"/>
+  <circle cx="360" cy="720" r="32" fill="#FE502D"/>
+  <circle cx="360" cy="720" r="52" stroke="#F6EFE7" stroke-width="14"/>
+</svg>
